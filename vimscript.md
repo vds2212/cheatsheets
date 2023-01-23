@@ -236,7 +236,7 @@ endfunction
 ### Commands with arguments
 
 ```vim
-command! -nargs=? Save call script#foo(<args>)
+command! -nargs=? Save call script#foo(<f-args>)
 ```
 {: .-setup}
 
